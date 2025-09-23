@@ -14,5 +14,5 @@ def greetings(first_name, last_name):
 
 greetings("John", "Doe")
 greetings("Jane", "Smith")
-greetings("Mosh", "Hamedani")
+greetings("Neha", "Rani")
 print("^ " * 45)
