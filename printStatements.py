@@ -1,6 +1,6 @@
 for number in range(1, 10, 2):
     print("Attempt", number, number * ".")
-print("^" * 90)
+print("^ " * 45)
 successful = False
 for num in range(3):
     print("Attempt")
@@ -9,4 +9,4 @@ for num in range(3):
         break
 else:
     print("Attempted 3 times and failed")
-print("^" * 90)
+print("^" * 45)

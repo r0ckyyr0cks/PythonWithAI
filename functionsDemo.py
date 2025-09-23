@@ -4,7 +4,7 @@ def greet():
 
 
 greet()
-print("^" * 90)
+print("^ " * 45)
 
 
 def greetings(first_name, last_name):
@@ -15,4 +15,4 @@ def greetings(first_name, last_name):
 greetings("John", "Doe")
 greetings("Jane", "Smith")
 greetings("Mosh", "Hamedani")
-print("^" * 90)
+print("^ " * 45)

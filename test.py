@@ -6,4 +6,4 @@ for x in range(1, 10):
     else:
         print(f"{x} is odd")
 print(f"We have {count} even numbers")
-print("^" * 90)
+print("^ " * 45)
