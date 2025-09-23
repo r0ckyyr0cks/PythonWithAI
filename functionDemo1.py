@@ -1,4 +1,5 @@
 # function in python
+'''
 def simpleInterest(p, r, t):
     si = (p * r * t) / 100
     print("Simple Interest is:", si)
@@ -11,6 +12,7 @@ time = float(input("Enter Time in years: "))
 simpleInterest(principal, rate, time)
 # simpleInterest(1000, 5, 3)
 # simpleInterest(1500, 4, 5)
+print("- " * 20)
 
 
 def cube(n):
@@ -21,3 +23,23 @@ def cube(n):
 num = int(input("Enter a number to find its cube: "))
 result = cube(num)
 print("Cube of", num, "is:", result)
+
+'''
+print("= " * 20)
+
+
+def calculator(a, b):
+    addition = a + b
+    subtraction = a - b
+    multiplication = a * b
+    division = a / b
+    return addition, subtraction, multiplication, division
+
+
+add, sub, mul, div = calculator(20, 5)
+print("Addition:", add)
+print("Subtraction:", sub)
+print("Multiplication:", mul)
+print("Division:", div)
+
+print("- " * 20)
